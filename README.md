@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/taco/taco-starter.svg?branch=master)](https://travis-ci.org/taco/taco-starter)
+[![Build Status](https://travis-ci.org/taco/debounce-logger.svg?branch=master)](https://travis-ci.org/taco/debounce-logger)
 
-# taco-starter
-
-Placeholder app
+# debounce-logger

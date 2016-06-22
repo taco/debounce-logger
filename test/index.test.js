@@ -1,14 +1,22 @@
 import expect from 'expect';
-import test from './../src';
+import {
+    configLogger,
+    startLogger,
+    stopLogger
+} from './../src';
 
-/** @test {} */
-describe('Taco starter package', () => {
+describe('Debounce logger', () => {
 
-    /** @test {#} */
-    it('should have a default export with working tests', () => {
+    it('should have a defined exports', () => {
         expect(
-            test()
-        ).toBe(true);
+            configLogger
+        ).toBeA('function');
+        expect(
+            startLogger
+        ).toBeA('function');
+        expect(
+            stopLogger
+        ).toBeA('function');
     });
 
 });
